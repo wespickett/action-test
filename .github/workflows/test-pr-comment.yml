@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Test pr commenter
-        uses: wespickett/pr-commenter-action@4ee373a54638df3ef5564005793a71b65a127668
+        uses: wespickett/pr-commenter-action@713c2d8a34e99d1e811668cc35a24bcab726c20c
         with:
           config-file: "wespickett/action-test@d8bc517b7d45a8657ba0a66e8dc046be08566750:.github/test-pr-comment-template.yml"
           template-variables: |
