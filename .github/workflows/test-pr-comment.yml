@@ -1,0 +1,14 @@
+name: Test Pr Comment
+
+on:
+  pull_request:
+
+jobs:
+  test1:
+    uses: wespickett/pr-commenter-action@4ee373a54638df3ef5564005793a71b65a127668
+    with:
+      config-file: ".github/test-pr-comment-template.yml"
+      template-variables: |
+        {
+          "testVal": "test123"
+        }

@@ -1,0 +1,15 @@
+comment:
+  on-update: edit
+  header: |
+    Some header
+  snippets:
+    - id: some-snippet
+      files:
+        - '.github/**/*.yml'
+      body: |
+        Test comment body {{ testVal }}
+
+        some more text
+  footer:
+    ---
+    Test footer
